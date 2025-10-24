@@ -1,0 +1,63 @@
+# -----------------------------
+# Core dependencies
+# -----------------------------
+python-dotenv==1.0.1
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.5.0
+
+# -----------------------------
+# LangChain ecosystem (RAG, FAISS, Embeddings)
+# -----------------------------
+langchain==0.2.14
+langchain-community==0.2.12
+langchain-huggingface==0.0.3
+faiss-cpu==1.8.0
+sentence-transformers==3.0.1
+
+# -----------------------------
+# Hugging Face & AI4Bharat models
+# -----------------------------
+transformers>=4.43.0
+huggingface-hub>=0.24.0
+torchaudio>=2.4.0
+torch>=2.4.0
+accelerate>=0.31.0
+
+# -----------------------------
+# Google Gemini (Generative AI)
+# -----------------------------
+google-generativeai>=0.5.4
+
+# -----------------------------
+# Speech-to-Text (AI4Bharat Indic ASR)
+# -----------------------------
+# AI4Bharat models use torch + torchaudio (already included above)
+
+# -----------------------------
+# Text-to-Speech
+# -----------------------------
+gTTS==2.5.1
+
+# -----------------------------
+# Web UI (Gradio)
+# -----------------------------
+gradio==4.41.0
+soundfile==0.12.1
+
+# -----------------------------
+# Audio Recording Support
+# -----------------------------
+streamlit-mic-recorder==0.0.4  # if you still want to test streamlit version
+pyaudio==0.2.14
+
+# -----------------------------
+# Utility
+# -----------------------------
+tqdm>=4.66.0
+requests>=2.31.0
+
+# -----------------------------
+# Optional but recommended
+# -----------------------------
+sentencepiece>=0.2.0   # required for M2M / NLLB translation models

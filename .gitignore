@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environments
+.env
+.venv/
+venv/
+env/
+*.env
+
+# API tokens or configs
+config_private.json
+
+# Logs, data, cache
+*.log
+*.pkl
+*.cache
+*.DS_Store
+
+# Audio outputs
+*.wav
+*.mp3
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
